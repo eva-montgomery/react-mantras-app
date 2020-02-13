@@ -26,3 +26,7 @@
 
 # React-Redux
 - containers directory
+    - MantraListContainer
+    - MantraFormContainer
+- mapStateToProps
+- mapDispatchToProps    

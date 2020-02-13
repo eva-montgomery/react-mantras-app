@@ -3,7 +3,7 @@ import {
 } from "./actions";
 
 
-export function mantra(state=[], action) {
+export function mantras(state=['a', 'b', 'c'], action) {
     const newState = [ ...state ];
     switch(action.type) {
         case ADD_MANTRA:
